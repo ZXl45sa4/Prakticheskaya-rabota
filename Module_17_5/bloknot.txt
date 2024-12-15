@@ -1,6 +1,0 @@
-pip freeze > requirements.txt - загрузка зависимостей
-alembic init app/migrations
-alembic - папка с файлами для миграции
-routers - папка с файлами для маршрутами
-taskmanadger.db - файл с базой данных
-alembic.ini - для миграции
