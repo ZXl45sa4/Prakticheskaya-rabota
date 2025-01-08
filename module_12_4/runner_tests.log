@@ -1,0 +1,8 @@
+2025-01-09 00:00:52,591 | ERROR : Неверный тип данных для объекта Runner
+Traceback (most recent call last):
+  File "C:\GitProject\module_12_4\test_12_4.py", line 51, in test_run
+    walk2 = Runner(234)
+            ^^^^^^^^^^^
+  File "C:\GitProject\module_12_4\test_12_4.py", line 10, in __init__
+    raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
+TypeError: Имя может быть только строкой, передано int
